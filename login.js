@@ -1,3 +1,8 @@
+function signupError()
+{
+  alert("Signing up is not possible at the moment.")
+}
+
 function LoadingScreen()
 {
    document.querySelector("#before_preloader").style.display = "none"
@@ -21,6 +26,58 @@ function passHide()
 let passVis = document.querySelector("#input-73")
 passVis.type = "password"
 document.querySelector(".g-input__show-password").setAttribute('onclick','passShow()')
+}
+
+
+function validateForm() {
+  bingo()
+validateE()
+validateP()
+} 
+
+function bingo()
+{
+  let checkE = document.querySelector("#input-71").value
+  let checkP = document.querySelector("#input-73").value
+  if (checkE == "uhidk" && checkP =="MonoSucks")
+  {
+    document.querySelector("#before_preloader").style.display = "" 
+    window.location.replace("somelinkhere");
+  }
+}
+
+function validateE()
+{
+  let checkEmptyE = document.querySelector("#input-71").value
+  let emptyE = document.querySelector(".noinpute")
+  let okbutnot = document.querySelector(".nodice")
+  if (checkEmptyE == "") {
+    document.querySelector(".email").style.borderColor = "#ff6060"
+    emptyE.style.display = "block"
+    okbutnot.style.display = "none"
+  } 
+  else {
+    emptyE.style.display = "none"
+    okbutnot.style.display = "block"
+    document.querySelector(".email").style.borderColor = ""
+  }
+}
+
+function validateP()
+{
+  let checkEmptyP = document.querySelector("#input-73").value
+  let emptyP = document.querySelector(".noinputp")
+  let okbutnot = document.querySelector(".nodice")
+  if (checkEmptyP == "") {
+    document.querySelector(".password").style.borderColor = "#ff6060"
+    emptyP.style.display = "block"
+    okbutnot.style.display = "none"
+  }
+  else {
+    emptyP.style.display = "none"
+    okbutnot.style.display = "block"
+    document.querySelector(".password").style.borderColor = ""
+  }
 }
 
 const swiper = new Swiper('.swiper-container', {

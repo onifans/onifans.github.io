@@ -50,20 +50,6 @@
     />
     <meta name="theme-color" content="#ffffff" />
     <meta name="robots" content="noimageindex" />
-    <link rel="preconnect" href="https://public.Onifans.com/" />
-    <link rel="dns-prefetch" href="https://public.Onifans.com/" />
-    <link rel="preconnect" href="https://static.cdn.Onifans.com/" />
-    <link rel="dns-prefetch" href="https://static.cdn.Onifans.com/" />
-    <link rel="preconnect" href="https://ws.Onifans.com/" />
-    <link rel="dns-prefetch" href="https://ws.Onifans.com/" />
-    <link rel="preconnect" href="https://cdn2.Onifans.com/" />
-    <link rel="dns-prefetch" href="https://cdn2.Onifans.com/" />
-    <link rel="preconnect" href="https://recaptcha.net/" />
-    <link rel="dns-prefetch" href="https://recaptcha.net/" />
-    <link rel="preconnect" href="https://www.gstatic.com/" />
-    <link rel="dns-prefetch" href="https://www.gstatic.com/" />
-    <link rel="preconnect" href="https://www.google.com/" />
-    <link rel="dns-prefetch" href="https://www.google.com/" />
     <style>
       :root {
         --bg-color: #fff;
@@ -1430,6 +1416,16 @@
   </head>
   <body data-app="true" id="guest_body">
     <noscript><strong>OniFans</strong></noscript>
+  <!-- <script src="kofi.js"></script>
+<script>
+  kofiWidgetOverlay.draw('viera', {
+    'type': 'floating-chat',
+    'floating-chat.donateButton.text': 'Join my OniFans',
+    'floating-chat.donateButton.background-color': '#ff5f5f',
+    'floating-chat.donateButton.text-color': '#fff',
+    'padding': '0 14px'
+  });
+</script>--> 
     <div class="main-wrapper m-cookies-notice-show">
 <div id="before_preloader"><div id="recovery_mode" style="display: block; font-size: calc(1.5vh + 1vw); text-align: center; padding: 0px 10px;"><div style="position:absolute;bottom:10%;left:0;right:0"><div style="width:200px;height:4px;background:transparent);margin:0 auto;position:relative"></div></div></div><img class="htmlpreload" src="OniFans_files/onifans.svg" alt=""></div>
       <div class="login_content">
@@ -1544,7 +1540,7 @@
                       >
                         <div class="v-input__control">
                           <div class="v-input__slot">
-                            <fieldset aria-hidden="true">
+                            <fieldset class="email" aria-hidden="true">
                               <legend style="width: 0px"><span>​</span></legend>
                             </fieldset>
                             <div class="v-text-field__slot">
@@ -1569,6 +1565,7 @@
                             </div>
                           </div>
                         </div>
+                        <div class="v-text-field__details noinpute"><div class="v-messages theme--light error--text" role="alert"><div class="v-messages__wrapper"><div class="v-messages__message">The email field is required</div></div></div></div>
                       </div>
                     </div>
                   </div>
@@ -1584,7 +1581,7 @@
                       >
                         <div class="v-input__control">
                           <div class="v-input__slot">
-                            <fieldset aria-hidden="true">
+                            <fieldset class="password" aria-hidden="true">
                               <legend style="width: 0px"><span>​</span></legend>
                             </fieldset>
                             <div class="v-text-field__slot">
@@ -1608,11 +1605,7 @@
                               />
                             </div>
                           </div>
-                          <div class="v-text-field__details">
-                            <div class="v-messages theme--light">
-                              <div class="v-messages__wrapper"></div>
-                            </div>
-                          </div>
+                          <div class="v-text-field__details noinputp"><div class="v-messages theme--light error--text" role="alert"><div class="v-messages__wrapper"><div class="v-messages__message">The password field is required</div></div></div></div>
                         </div>
                         <div class="v-input__append-outer">
                           <!----><!----><!----><span
@@ -1636,6 +1629,7 @@
                             </button>
                           </p>
                         </div>
+                        <div at-attr="error" class="nodice g-input__help m-danger error_place"> Wrong email or password </div>
                       </div>
                     </div>
                   </div>
@@ -1645,8 +1639,9 @@
                     class="g-input__wrapper captcha_wrapper"
                   ></div>
                   <button
-                    type="submit"
+                    type="button"
                     at-attr="submit"
+                    onclick="return validateForm()"
                     class="g-btn m-rounded m-flex m-lg m-login-btn"
                   >
                     Login
@@ -1663,13 +1658,14 @@
                   ><!---->
                   <div class="b-loginreg__form__issues">
                     Visit
-                    <a href="https://Onifans.com/help/1/4">Help Center</a> for
+                    <a href="">Help Center</a> for
                     additional help if you are unable to log in with your
                     existing OniFans Account
                   </div>
                   <h3>Don't have an account yet?</h3>
                   <p>
                     <button
+                    onclick="signupError()"
                       at-attr="sign_up"
                       type="button"
                       class="g-btn m-flat m-toggle-btn"
@@ -1711,7 +1707,7 @@
                 </a>
                 <div class="l-footer-static__menu__group">
                   <a
-                    href="https://twitter.com/Onifans"
+                    href="https://twitter.com/"
                     target="_blank"
                     title="Twitter"
                     class="l-footer-static__menu__item"
@@ -1721,7 +1717,7 @@
                         href="#icon-twitter"
                       ></use></svg></a
                   ><a
-                    href="https://instagram.com/Onifans"
+                    href="https://instagram.com/"
                     target="_blank"
                     title="Instagram"
                     class="l-footer-static__menu__item"
@@ -2080,7 +2076,7 @@
         </div>
       </div>
       <a
-        href="https://Onifans.com/help"
+        href=""
         class="contact_button visible-lg has-tooltip"
         data-original-title="null"
         ><svg class="g-icon" aria-hidden="true">
@@ -3439,9 +3435,6 @@
       <!----><!----><!----><!----><!---->
       <div tabindex="1" class="l-stories with-cube with-effects"><!----></div>
     </div>
-    <script src="OniFans_files/vendor.js"></script>
-    <script src="OniFans_files/mediaVault.js"></script>
-    <script src="OniFans_files/app.js"></script>
     <script src="login.js"></script>
     <div
       id="__autosizeInputGhost"

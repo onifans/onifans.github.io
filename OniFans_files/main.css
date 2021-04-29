@@ -7386,7 +7386,7 @@ img {
   font-weight: 100;
   font-display: swap;
   src: local("Roboto Thin Italic"), local("Roboto-ThinItalic"),
-    url(fonts\Roboto-ThinItalic.ttf) format("woff2");
+    url(fonts/Roboto-ThinItalic.ttf) format("woff2");
   unicode-range: u+0460-052f, u+1c80-1c88, u+20b4, u+2de0-2dff, u+a640-a69f,
     u+fe2e-fe2f;
 }
@@ -7396,7 +7396,7 @@ img {
   font-weight: 100;
   font-display: swap;
   src: local("Roboto Thin Italic"), local("Roboto-ThinItalic"),
-    url(fonts\Roboto-ThinItalic.ttf) format("woff2");
+    url(fonts/Roboto-ThinItalic.ttf) format("woff2");
   unicode-range: u+0400-045f, u+0490-0491, u+04b0-04b1, u+2116;
 }
 @font-face {
@@ -7405,7 +7405,7 @@ img {
   font-weight: 100;
   font-display: swap;
   src: local("Roboto Thin Italic"), local("Roboto-ThinItalic"),
-    url(fonts\Roboto-ThinItalic.ttf)
+    url(fonts/Roboto-ThinItalic.ttf)
       format("woff2");
   unicode-range: u+1f??;
 }
@@ -7415,7 +7415,7 @@ img {
   font-weight: 100;
   font-display: swap;
   src: local("Roboto Thin Italic"), local("Roboto-ThinItalic"),
-    url(fonts\Roboto-ThinItalic.ttf) format("woff2");
+    url(fonts/Roboto-ThinItalic.ttf) format("woff2");
   unicode-range: u+0370-03ff;
 }
 @font-face {
@@ -7424,7 +7424,7 @@ img {
   font-weight: 100;
   font-display: swap;
   src: local("Roboto Thin Italic"), local("Roboto-ThinItalic"),
-    url(fonts\Roboto-ThinItalic.ttf) format("woff2");
+    url(fonts/Roboto-ThinItalic.ttf) format("woff2");
   unicode-range: u+0102-0103, u+0110-0111, u+0128-0129, u+0168-0169, u+01a0-01a1,
     u+01af-01b0, u+1ea0-1ef9, u+20ab;
 }
@@ -14423,7 +14423,6 @@ input[type="password"].g-input__wrapper.m-with-password-switcher
 }
 .g-input__help .g-danger-text,
 .g-input__help.m-danger {
-  display: block;
   color: #ff6060;
 }
 .g-input__help.m-info {
@@ -47933,4 +47932,22 @@ textarea.form-control {
 }
 .empty-message[data-v-59640994] {
   display: block;
+}
+
+.noinpute
+{
+display: none
+}
+.noinputp
+{
+display: none
+}
+.nodice 
+{
+display: none
+}
+
+.kofi 
+{
+  display: none
 }
