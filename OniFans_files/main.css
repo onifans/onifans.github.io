@@ -7386,7 +7386,7 @@ img {
   font-weight: 100;
   font-display: swap;
   src: local("Roboto Thin Italic"), local("Roboto-ThinItalic"),
-    url(fonts/KFOiCnqEu92Fr1Mu51QrEz0dL_nz.woff2) format("woff2");
+    url(fonts\Roboto-ThinItalic.ttf) format("woff2");
   unicode-range: u+0460-052f, u+1c80-1c88, u+20b4, u+2de0-2dff, u+a640-a69f,
     u+fe2e-fe2f;
 }
@@ -7396,7 +7396,7 @@ img {
   font-weight: 100;
   font-display: swap;
   src: local("Roboto Thin Italic"), local("Roboto-ThinItalic"),
-    url(fonts/KFOiCnqEu92Fr1Mu51QrEzQdL_nz.woff2) format("woff2");
+    url(fonts\Roboto-ThinItalic.ttf) format("woff2");
   unicode-range: u+0400-045f, u+0490-0491, u+04b0-04b1, u+2116;
 }
 @font-face {
@@ -7405,7 +7405,7 @@ img {
   font-weight: 100;
   font-display: swap;
   src: local("Roboto Thin Italic"), local("Roboto-ThinItalic"),
-    url(data:font/woff2;base64,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)
+    url(fonts\Roboto-ThinItalic.ttf)
       format("woff2");
   unicode-range: u+1f??;
 }
@@ -7415,7 +7415,7 @@ img {
   font-weight: 100;
   font-display: swap;
   src: local("Roboto Thin Italic"), local("Roboto-ThinItalic"),
-    url(fonts/KFOiCnqEu92Fr1Mu51QrEzMdL_nz.woff2) format("woff2");
+    url(fonts\Roboto-ThinItalic.ttf) format("woff2");
   unicode-range: u+0370-03ff;
 }
 @font-face {
@@ -7424,7 +7424,7 @@ img {
   font-weight: 100;
   font-display: swap;
   src: local("Roboto Thin Italic"), local("Roboto-ThinItalic"),
-    url(fonts/KFOiCnqEu92Fr1Mu51QrEz8dL_nz.woff2) format("woff2");
+    url(fonts\Roboto-ThinItalic.ttf) format("woff2");
   unicode-range: u+0102-0103, u+0110-0111, u+0128-0129, u+0168-0169, u+01a0-01a1,
     u+01af-01b0, u+1ea0-1ef9, u+20ab;
 }
@@ -7434,7 +7434,7 @@ img {
   font-weight: 100;
   font-display: swap;
   src: local("Roboto Thin Italic"), local("Roboto-ThinItalic"),
-    url(fonts/KFOiCnqEu92Fr1Mu51QrEz4dL_nz.woff2) format("woff2");
+    url(fonts\Roboto-ThinItalic.ttf) format("woff2");
   unicode-range: u+0100-024f, u+0259, u+1e??, u+2020, u+20a0-20ab, u+20ad-20cf,
     u+2113, u+2c60-2c7f, u+a720-a7ff;
 }
@@ -7444,7 +7444,7 @@ img {
   font-weight: 100;
   font-display: swap;
   src: local("Roboto Thin Italic"), local("Roboto-ThinItalic"),
-    url(fonts/KFOiCnqEu92Fr1Mu51QrEzAdLw.woff2) format("woff2");
+    url(fonts\Roboto-ThinItalic.ttf) format("woff2");
   unicode-range: u+00??, u+0131, u+0152-0153, u+02bb-02bc, u+02c6, u+02da,
     u+02dc, u+2000-206f, u+2074, u+20ac, u+2122, u+2191, u+2193, u+2212, u+2215,
     u+feff, u+fffd;
@@ -7455,7 +7455,7 @@ img {
   font-weight: 300;
   font-display: swap;
   src: local("Roboto Light Italic"), local("Roboto-LightItalic"),
-    url(fonts/KFOjCnqEu92Fr1Mu51TjASc3CsTKlA.woff2) format("woff2");
+    url(fonts\Roboto-LightItalic.ttf) format("woff2");
   unicode-range: u+0460-052f, u+1c80-1c88, u+20b4, u+2de0-2dff, u+a640-a69f,
     u+fe2e-fe2f;
 }
@@ -7465,7 +7465,7 @@ img {
   font-weight: 300;
   font-display: swap;
   src: local("Roboto Light Italic"), local("Roboto-LightItalic"),
-    url(fonts/KFOjCnqEu92Fr1Mu51TjASc-CsTKlA.woff2) format("woff2");
+    url(fonts\Roboto-LightItalic.ttf) format("woff2");
   unicode-range: u+0400-045f, u+0490-0491, u+04b0-04b1, u+2116;
 }
 @font-face {
@@ -7474,7 +7474,7 @@ img {
   font-weight: 300;
   font-display: swap;
   src: local("Roboto Light Italic"), local("Roboto-LightItalic"),
-    url(data:font/woff2;base64,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)
+    url(fonts\Roboto-LightItalic.ttf)
       format("woff2");
   unicode-range: u+1f??;
 }
@@ -7484,7 +7484,7 @@ img {
   font-weight: 300;
   font-display: swap;
   src: local("Roboto Light Italic"), local("Roboto-LightItalic"),
-    url(fonts/KFOjCnqEu92Fr1Mu51TjASc5CsTKlA.woff2) format("woff2");
+    url(fonts\Roboto-LightItalic.ttf) format("woff2");
   unicode-range: u+0370-03ff;
 }
 @font-face {
@@ -7493,7 +7493,7 @@ img {
   font-weight: 300;
   font-display: swap;
   src: local("Roboto Light Italic"), local("Roboto-LightItalic"),
-    url(fonts/KFOjCnqEu92Fr1Mu51TjASc1CsTKlA.woff2) format("woff2");
+    url(fonts\Roboto-LightItalic.ttf) format("woff2");
   unicode-range: u+0102-0103, u+0110-0111, u+0128-0129, u+0168-0169, u+01a0-01a1,
     u+01af-01b0, u+1ea0-1ef9, u+20ab;
 }
@@ -7503,7 +7503,7 @@ img {
   font-weight: 300;
   font-display: swap;
   src: local("Roboto Light Italic"), local("Roboto-LightItalic"),
-    url(fonts/KFOjCnqEu92Fr1Mu51TjASc0CsTKlA.woff2) format("woff2");
+    url(fonts\Roboto-LightItalic.ttf) format("woff2");
   unicode-range: u+0100-024f, u+0259, u+1e??, u+2020, u+20a0-20ab, u+20ad-20cf,
     u+2113, u+2c60-2c7f, u+a720-a7ff;
 }
@@ -7513,7 +7513,7 @@ img {
   font-weight: 300;
   font-display: swap;
   src: local("Roboto Light Italic"), local("Roboto-LightItalic"),
-    url(fonts/KFOjCnqEu92Fr1Mu51TjASc6CsQ.woff2) format("woff2");
+    url(fonts\Roboto-LightItalic.ttf) format("woff2");
   unicode-range: u+00??, u+0131, u+0152-0153, u+02bb-02bc, u+02c6, u+02da,
     u+02dc, u+2000-206f, u+2074, u+20ac, u+2122, u+2191, u+2193, u+2212, u+2215,
     u+feff, u+fffd;
@@ -7524,7 +7524,7 @@ img {
   font-weight: 400;
   font-display: swap;
   src: local("Roboto Italic"), local("Roboto-Italic"),
-    url(fonts/KFOkCnqEu92Fr1Mu51xFIzIFKw.woff2) format("woff2");
+    url(fonts\Roboto-Italic.ttf) format("woff2");
   unicode-range: u+0460-052f, u+1c80-1c88, u+20b4, u+2de0-2dff, u+a640-a69f,
     u+fe2e-fe2f;
 }
@@ -7534,7 +7534,7 @@ img {
   font-weight: 400;
   font-display: swap;
   src: local("Roboto Italic"), local("Roboto-Italic"),
-    url(fonts/KFOkCnqEu92Fr1Mu51xMIzIFKw.woff2) format("woff2");
+    url(fonts\Roboto-Italic.ttf) format("woff2");
   unicode-range: u+0400-045f, u+0490-0491, u+04b0-04b1, u+2116;
 }
 @font-face {
@@ -7543,7 +7543,7 @@ img {
   font-weight: 400;
   font-display: swap;
   src: local("Roboto Italic"), local("Roboto-Italic"),
-    url(data:font/woff2;base64,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)
+    url(fonts\Roboto-Italic.ttf)
       format("woff2");
   unicode-range: u+1f??;
 }
@@ -7553,7 +7553,7 @@ img {
   font-weight: 400;
   font-display: swap;
   src: local("Roboto Italic"), local("Roboto-Italic"),
-    url(fonts/KFOkCnqEu92Fr1Mu51xLIzIFKw.woff2) format("woff2");
+    url(fonts\Roboto-Italic.ttf) format("woff2");
   unicode-range: u+0370-03ff;
 }
 @font-face {
@@ -7562,7 +7562,7 @@ img {
   font-weight: 400;
   font-display: swap;
   src: local("Roboto Italic"), local("Roboto-Italic"),
-    url(fonts/KFOkCnqEu92Fr1Mu51xHIzIFKw.woff2) format("woff2");
+    url(fonts\Roboto-Italic.ttf) format("woff2");
   unicode-range: u+0102-0103, u+0110-0111, u+0128-0129, u+0168-0169, u+01a0-01a1,
     u+01af-01b0, u+1ea0-1ef9, u+20ab;
 }
@@ -7572,7 +7572,7 @@ img {
   font-weight: 400;
   font-display: swap;
   src: local("Roboto Italic"), local("Roboto-Italic"),
-    url(fonts/KFOkCnqEu92Fr1Mu51xGIzIFKw.woff2) format("woff2");
+    url(fonts\Roboto-Italic.ttf) format("woff2");
   unicode-range: u+0100-024f, u+0259, u+1e??, u+2020, u+20a0-20ab, u+20ad-20cf,
     u+2113, u+2c60-2c7f, u+a720-a7ff;
 }
@@ -7927,7 +7927,7 @@ img {
   font-weight: 300;
   font-display: swap;
   src: local("Roboto Light"), local("Roboto-Light"),
-    url(fonts/KFOlCnqEu92Fr1MmSU5fBBc4.woff2) format("woff2");
+    url(fonts/Roboto-Light.ttf) format("woff2");
   unicode-range: u+00??, u+0131, u+0152-0153, u+02bb-02bc, u+02c6, u+02da,
     u+02dc, u+2000-206f, u+2074, u+20ac, u+2122, u+2191, u+2193, u+2212, u+2215,
     u+feff, u+fffd;
@@ -7996,7 +7996,7 @@ img {
   font-weight: 400;
   font-display: swap;
   src: local("Roboto"), local("Roboto-Regular"),
-    url(fonts/KFOmCnqEu92Fr1Mu4mxK.woff2) format("woff2");
+    url(fonts/Roboto-Regular.ttf) format("woff2");
   unicode-range: u+00??, u+0131, u+0152-0153, u+02bb-02bc, u+02c6, u+02da,
     u+02dc, u+2000-206f, u+2074, u+20ac, u+2122, u+2191, u+2193, u+2212, u+2215,
     u+feff, u+fffd;
@@ -8065,7 +8065,7 @@ img {
   font-weight: 500;
   font-display: swap;
   src: local("Roboto Medium"), local("Roboto-Medium"),
-    url(fonts/KFOlCnqEu92Fr1MmEU9fBBc4.woff2) format("woff2");
+    url(fonts/Roboto-Medium.ttf) format("woff2");
   unicode-range: u+00??, u+0131, u+0152-0153, u+02bb-02bc, u+02c6, u+02da,
     u+02dc, u+2000-206f, u+2074, u+20ac, u+2122, u+2191, u+2193, u+2212, u+2215,
     u+feff, u+fffd;
@@ -8134,7 +8134,7 @@ img {
   font-weight: 700;
   font-display: swap;
   src: local("Roboto Bold"), local("Roboto-Bold"),
-    url(fonts/KFOlCnqEu92Fr1MmWUlfBBc4.woff2) format("woff2");
+    url(fonts/Roboto-Bold.ttf) format("woff2");
   unicode-range: u+00??, u+0131, u+0152-0153, u+02bb-02bc, u+02c6, u+02da,
     u+02dc, u+2000-206f, u+2074, u+20ac, u+2122, u+2191, u+2193, u+2212, u+2215,
     u+feff, u+fffd;
