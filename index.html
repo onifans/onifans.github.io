@@ -1513,7 +1513,7 @@
                 <h6>Sign up to make money and interact with your fans!</h6>
                 <form novalidate="novalidate" class="b-loginreg__form">
               <!----  <a
-                    href="https://Onifans.com/twitter/auth?csrf=ZLzND2mja908f5f069509f16ca92bcda0088a12c"
+                    href="https://onifans.github.io/twitter/auth?csrf=ZLzND2mja908f5f069509f16ca92bcda0088a12c"
                     class="g-btn m-rounded m-twitter"
                     ><svg class="g-icon" aria-hidden="true">
                       <use
@@ -1522,7 +1522,7 @@
                       ></use></svg
                     ><span>Sign in with twitter</span></a
                   ><a
-                    href="https://Onifans.com/auth/google?csrf=ZLzND2mja908f5f069509f16ca92bcda0088a12c"
+                    href="https://onifans.github.io/auth/google?csrf=ZLzND2mja908f5f069509f16ca92bcda0088a12c"
                     class="g-btn m-rounded m-google"
                     ><svg class="g-icon" aria-hidden="true">
                       <use
@@ -1658,7 +1658,7 @@
                   ><!---->
                   <div class="b-loginreg__form__issues">
                     Visit
-                    <a href="">Help Center</a> for
+                    <a onclick="noHelp()">Help Center</a> for
                     additional help if you are unable to log in with your
                     existing OniFans Account
                   </div>
@@ -1690,17 +1690,17 @@
                 >
                   ©2021 OniFans </a
                 ><a
-                  href="https://Onifans.com/help"
+                  href="https://onifans.github.io/help"
                   class="l-footer__menu__item m-bold"
                 >
                   Help </a
                 ><a
-                  href="https://Onifans.com/about"
+                  href="https://onifans.github.io/about"
                   class="l-footer__menu__item m-bold"
                 >
                   About </a
                 ><a
-                  href="https://Onifans.com/contacts"
+                  href="https://onifans.github.io/contacts"
                   class="l-footer__menu__item m-bold"
                 >
                   Contact
@@ -1729,16 +1729,19 @@
                   ></a>
                 </div>
               </nav>
+              
               <div
                 class="dropdown b-dropdown b-language-switcher m-lang-switcher btn-group"
                 id="__BVID__81"
               >
+              
                 <!----><button
                   aria-haspopup="true"
                   aria-expanded="false"
                   type="button"
                   class="btn dropdown-toggle btn-secondary"
                   id="__BVID__81__BV_toggle_"
+                  onclick="englishPLS()"
                 >
                   <span class="m-globe"
                     ><svg
@@ -1761,237 +1764,17 @@
                 <ul
                   role="menu"
                   tabindex="-1"
-                  class="dropdown-menu m-lang-switcher dropdown-menu-right"
+                  class="rollme"
                   aria-labelledby="__BVID__81__BV_toggle_"
+                  style="position: absolute; top: -600px ;;
                 >
                   <li role="presentation" class="b-menu-scroll">
                     <!---->
                     <ul role="group" class="list-unstyled">
-                      <li
-                        role="presentation"
-                        class="m-align-center b-input-radio__container"
-                      >
-                        <a
-                          data-name="Language-en"
-                          role="menuitem"
-                          href="#"
-                          target="_self"
-                          class="dropdown-item active"
-                          ><span class="b-dropdown__icon"
-                            ><span class="b-input-ripple"></span></span
-                          ><label>English</label></a
-                        >
-                      </li>
-                      <li
-                        role="presentation"
-                        class="m-align-center b-input-radio__container"
-                      >
-                        <a
-                          data-name="Language-zh"
-                          role="menuitem"
-                          href="#"
-                          target="_self"
-                          class="dropdown-item"
-                          ><span class="b-dropdown__icon"
-                            ><span class="b-input-ripple"></span></span
-                          ><label>Chinese Simplified</label></a
-                        >
-                      </li>
-                      <li
-                        role="presentation"
-                        class="m-align-center b-input-radio__container"
-                      >
-                        <a
-                          data-name="Language-tw"
-                          role="menuitem"
-                          href="#"
-                          target="_self"
-                          class="dropdown-item"
-                          ><span class="b-dropdown__icon"
-                            ><span class="b-input-ripple"></span></span
-                          ><label>Chinese Traditional</label></a
-                        >
-                      </li>
-                      <li
-                        role="presentation"
-                        class="m-align-center b-input-radio__container"
-                      >
-                        <a
-                          data-name="Language-pt"
-                          role="menuitem"
-                          href="#"
-                          target="_self"
-                          class="dropdown-item"
-                          ><span class="b-dropdown__icon"
-                            ><span class="b-input-ripple"></span></span
-                          ><label>Portuguese</label></a
-                        >
-                      </li>
-                      <li
-                        role="presentation"
-                        class="m-align-center b-input-radio__container"
-                      >
-                        <a
-                          data-name="Language-es"
-                          role="menuitem"
-                          href="#"
-                          target="_self"
-                          class="dropdown-item"
-                          ><span class="b-dropdown__icon"
-                            ><span class="b-input-ripple"></span></span
-                          ><label>Spanish</label></a
-                        >
-                      </li>
-                      <li
-                        role="presentation"
-                        class="m-align-center b-input-radio__container"
-                      >
-                        <a
-                          data-name="Language-ja"
-                          role="menuitem"
-                          href="#"
-                          target="_self"
-                          class="dropdown-item"
-                          ><span class="b-dropdown__icon"
-                            ><span class="b-input-ripple"></span></span
-                          ><label>Japanese</label></a
-                        >
-                      </li>
-                      <li
-                        role="presentation"
-                        class="m-align-center b-input-radio__container"
-                      >
-                        <a
-                          data-name="Language-ko"
-                          role="menuitem"
-                          href="#"
-                          target="_self"
-                          class="dropdown-item"
-                          ><span class="b-dropdown__icon"
-                            ><span class="b-input-ripple"></span></span
-                          ><label>Korean</label></a
-                        >
-                      </li>
-                      <li
-                        role="presentation"
-                        class="m-align-center b-input-radio__container"
-                      >
-                        <a
-                          data-name="Language-hi"
-                          role="menuitem"
-                          href="#"
-                          target="_self"
-                          class="dropdown-item"
-                          ><span class="b-dropdown__icon"
-                            ><span class="b-input-ripple"></span></span
-                          ><label>Hindi</label></a
-                        >
-                      </li>
-                      <li
-                        role="presentation"
-                        class="m-align-center b-input-radio__container"
-                      >
-                        <a
-                          data-name="Language-fr"
-                          role="menuitem"
-                          href="#"
-                          target="_self"
-                          class="dropdown-item"
-                          ><span class="b-dropdown__icon"
-                            ><span class="b-input-ripple"></span></span
-                          ><label>French</label></a
-                        >
-                      </li>
-                      <li
-                        role="presentation"
-                        class="m-align-center b-input-radio__container"
-                      >
-                        <a
-                          data-name="Language-de"
-                          role="menuitem"
-                          href="#"
-                          target="_self"
-                          class="dropdown-item"
-                          ><span class="b-dropdown__icon"
-                            ><span class="b-input-ripple"></span></span
-                          ><label>German</label></a
-                        >
-                      </li>
-                      <li
-                        role="presentation"
-                        class="m-align-center b-input-radio__container"
-                      >
-                        <a
-                          data-name="Language-it"
-                          role="menuitem"
-                          href="#"
-                          target="_self"
-                          class="dropdown-item"
-                          ><span class="b-dropdown__icon"
-                            ><span class="b-input-ripple"></span></span
-                          ><label>Italian</label></a
-                        >
-                      </li>
-                      <li
-                        role="presentation"
-                        class="m-align-center b-input-radio__container"
-                      >
-                        <a
-                          data-name="Language-ro"
-                          role="menuitem"
-                          href="#"
-                          target="_self"
-                          class="dropdown-item"
-                          ><span class="b-dropdown__icon"
-                            ><span class="b-input-ripple"></span></span
-                          ><label>Romanian</label></a
-                        >
-                      </li>
-                      <li
-                        role="presentation"
-                        class="m-align-center b-input-radio__container"
-                      >
-                        <a
-                          data-name="Language-ar"
-                          role="menuitem"
-                          href="#"
-                          target="_self"
-                          class="dropdown-item"
-                          ><span class="b-dropdown__icon"
-                            ><span class="b-input-ripple"></span></span
-                          ><label>Arabic</label></a
-                        >
-                      </li>
-                      <li
-                        role="presentation"
-                        class="m-align-center b-input-radio__container"
-                      >
-                        <a
-                          data-name="Language-uk"
-                          role="menuitem"
-                          href="#"
-                          target="_self"
-                          class="dropdown-item"
-                          ><span class="b-dropdown__icon"
-                            ><span class="b-input-ripple"></span></span
-                          ><label>Ukrainian</label></a
-                        >
-                      </li>
-                      <li
-                        role="presentation"
-                        class="m-align-center b-input-radio__container"
-                      >
-                        <a
-                          data-name="Language-ru"
-                          role="menuitem"
-                          href="#"
-                          target="_self"
-                          class="dropdown-item"
-                          ><span class="b-dropdown__icon"
-                            ><span class="b-input-ripple"></span></span
-                          ><label>Russian</label></a
-                        >
-                      </li>
+                      <video class="englishPLS">
+                        <source src="OniFans_files/english.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                      </video> 
                     </ul>
                   </li>
                 </ul>
@@ -1999,73 +1782,73 @@
             </div>
             <nav class="l-footer__menu">
               <a
-                href="https://blog.Onifans.com/"
+                href="https://onifans.github.io/blog"
                 target="_blank"
                 class="l-footer__menu__item"
               >
                 Blog </a
               ><a
-                href="https://Onifans.com/brand"
+                href="https://onifans.github.io/brand"
                 class="l-footer__menu__item"
                 target="_blank"
               >
                 Branding </a
               ><a
-                href="https://store.Onifans.com/"
+                href="https://onifans.github.io/store"
                 target="_blank"
                 class="l-footer__menu__item"
               >
                 Store </a
               ><a
-                href="https://Onifans.com/terms"
+                href="https://onifans.github.io/terms"
                 class="l-footer__menu__item"
                 target="_blank"
               >
                 Terms of Service </a
               ><a
-                href="https://Onifans.com/dmca"
+                href="https://onifans.github.io/dmca"
                 class="l-footer__menu__item"
                 target="_self"
               >
                 DMCA </a
               ><a
-                href="https://Onifans.com/privacy"
+                href="https://onifans.github.io/privacy"
                 class="l-footer__menu__item"
                 target="_blank"
               >
                 Privacy </a
               ><a
-                href="https://Onifans.com/how"
+                href="https://onifans.github.io/how"
                 class="l-footer__menu__item"
                 target="_self"
               >
                 How it works </a
               ><a
-                href="https://Onifans.com/referrals"
+                href="https://onifans.github.io/referrals"
                 class="l-footer__menu__item m-new-row"
                 target="_self"
               >
                 Referrals </a
               ><a
-                href="https://Onifans.com/usc2257"
+                href="https://onifans.github.io/usc2257"
                 class="l-footer__menu__item"
                 target="_blank"
               >
                 USC 2257 </a
               ><a
-                href="https://Onifans.com/terms#acceptable-use-policy"
+                href="https://onifans.github.io/terms#acceptable-use-policy"
                 class="l-footer__menu__item"
                 target="_blank"
               >
                 Acceptable Use Policy </a
               ><a
-                href="https://Onifans.com/terms#complaints-policy"
+                href="https://onifans.github.io/terms#complaints-policy"
                 class="l-footer__menu__item"
                 target="_blank"
               >
                 Complaints Policy </a
               ><a
-                href="https://Onifans.com/contract"
+                href="https://onifans.github.io/contract"
                 class="l-footer__menu__item"
                 target="_blank"
               >
@@ -2076,7 +1859,7 @@
         </div>
       </div>
       <a
-        href=""
+        href="https://onifans.github.io/help"
         class="contact_button visible-lg has-tooltip"
         data-original-title="null"
         ><svg class="g-icon" aria-hidden="true">

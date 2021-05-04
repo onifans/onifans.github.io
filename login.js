@@ -106,3 +106,14 @@ const swiper = new Swiper('.swiper-container', {
     },
   });
   
+
+  // uhh something video lol
+  function englishPLS()
+  {
+    document.querySelector(".englishPLS").play();
+}
+
+function noHelp()
+{
+  document.querySelector(".b-loginreg__form__issues").innerText = "There is no  help";
+}
