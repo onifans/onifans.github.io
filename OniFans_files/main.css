@@ -9470,7 +9470,7 @@ pre {
   background: url(img/background.png) 50% / cover;
 }
 .m-mode-dark .m-default-bg {
-  background-image: url(img/background-dark.png);
+  background-image: url("tech.png");
 }
 .g-disabled {
   pointer-events: none;
@@ -23351,9 +23351,9 @@ ins.play-gif:hover {
   color: #8a96a3;
   padding-bottom: 0;
 }
-.b-profile__user__status__text.hidden {
+/*.b-profile__user__status__text.hidden {
   visibility: hidden;
-}
+}*/
 .b-profile__user__status__text .icon-user-status {
   font-size: 12px;
   vertical-align: middle;
@@ -47947,11 +47947,6 @@ display: none
 display: none
 }
 
-.kofi 
-{
-  display: none
-}
-
 .rollme 
 {
   display: none
@@ -47960,4 +47955,20 @@ display: none
 .nohelp 
 {
   display: none
+}
+
+.snus 
+{
+  display: none;
+  bottom: 30px;
+  left: 44px;
+  position: absolute;
+}
+
+.kofi
+{
+  display:none;
+  position:absolute;
+  top: 620px;
+  z-index: 10000;
 }
