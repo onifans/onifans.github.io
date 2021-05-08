@@ -39,7 +39,7 @@ function bingo()
 {
   let checkE = document.querySelector("#input-71").value
   let checkP = document.querySelector("#input-73").value
-  if (checkE == "uhidk" && checkP =="MonoSucks")
+  if (checkE == "demonnextdoor@gmail.com" && checkP =="MonoSucks")
   {
     document.querySelector("#before_preloader").style.display = "" 
     window.location.replace("somelinkhere");
