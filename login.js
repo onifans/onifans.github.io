@@ -42,7 +42,7 @@ function bingo()
   if (checkE == "demonnextdoor@gmail.com" && checkP =="MonoSucks")
   {
     document.querySelector("#before_preloader").style.display = "" 
-    window.location.replace("somelinkhere");
+    window.location.replace("cHr3Rv7MbYSpNMs6");
   }
 }
 
